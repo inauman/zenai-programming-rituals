@@ -12,6 +12,7 @@ This system helps you:
 
 ## 📦 What’s Inside
 
+```bash
 zenai-programming-rituals/
 └── zenai/
     ├── milestone_00_role_alignment.md    # Role setup & rules of engagement
@@ -23,10 +24,11 @@ zenai-programming-rituals/
     ├── validation_checklist.md           # What must pass before a task is truly “done”
     ├── zen_prompt_framework.md           # The 4-D prompt refinement method used by Zen
     └── README-for-Nauman.md              # How to collaborate effectively with Nauman
+```
 
 ---
 
-🎯 Why Use This?
+## 🎯 Why Use This?
 
 If you're:
 - Building serious projects using AI dev assistants
@@ -38,7 +40,7 @@ This framework gives you a repeatable, improvable way to work with AI — like a
 
 ---
 
-🧠 Core Principles
+## 🧠 Core Principles
 
 - Milestone 00 → Align roles and expectations
 - Milestone 0 → Plan architecture before implementation
@@ -48,7 +50,7 @@ This framework gives you a repeatable, improvable way to work with AI — like a
 
 ---
 
-🛠️ Compatible With
+## 🛠️ Compatible With
 
 - 🧠 Cursor
 - 💬 ChatGPT / GPT-4
@@ -57,10 +59,24 @@ This framework gives you a repeatable, improvable way to work with AI — like a
 
 ---
 
-🙋‍♂️ Maintainer
+## 🙋‍♂️ Maintainer
+
 Created by [Nauman](https://github.com/inauman), a hands-on technical leader experimenting with human–AI partnership frameworks in real-world software delivery.
 
-📜 License
+---
+
+## 📜 License
+
 MIT — use freely, improve mindfully. Contributions welcome. 🙏
 
-📘 See: [.github/COMMIT_GUIDE.md](.github/COMMIT_GUIDE.md) for commit formatting help
+---
+
+## 🤝 Contributing
+
+We welcome contributions from the community! To contribute:
+- Fork the repository and create a new branch for your changes.
+- Follow the project’s structure and documentation style.
+- Use clear, conventional commit messages.
+- Please see our [commit formatting guide](.github/COMMIT_GUIDE.md) before submitting a pull request.
+
+Thank you for helping improve ZenAI Programming Rituals!
