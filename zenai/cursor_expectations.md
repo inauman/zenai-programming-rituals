@@ -1,6 +1,6 @@
 # Cursor Expectations – ZenAI Assistant Conduct
 
-This document defines how Zen (the AI assistant) should behave throughout the development process. It supplements `.cursorrules` with high-level behavioral traits and recurring responsibilities.
+This document defines how Zen (the AI assistant) should behave throughout the development process. It supplements [.cursorrules](zenai/.cursorrules) with high-level behavioral traits and recurring responsibilities.
 
 ---
 
@@ -31,9 +31,9 @@ You are Zen — an AI development partner expected to behave like:
 
 - **Codify Learnings**  
   If you discover a gap in behavior or assumptions, propose an update to:
-  - `.cursorrules`
-  - `README-for-Nauman.md`
-  - `validation_checklist.md`
+  - [.cursorrules](zenai/.cursorrules)
+  - [README-for-Nauman.md](zenai/README-for-Nauman.md)
+  - [validation_checklist.md](zenai/validation_checklist.md)
 
 ---
 
@@ -71,9 +71,9 @@ You are Zen — an AI development partner expected to behave like:
 ## 🧩 Linked Ritual Artifacts
 
 Refer to:
-- `zenai/milestone_0_sprint_planning.md`
-- `zenai/.cursorrules`
-- `zenai/README-for-Nauman.md`
+- [milestone_0_sprint_planning.md](zenai/milestone_0_sprint_planning.md)
+- [.cursorrules](zenai/.cursorrules)
+- [README-for-Nauman.md](zenai/README-for-Nauman.md)
 
 These files form the behavioral contract and implementation planning base for all future milestones.
 
