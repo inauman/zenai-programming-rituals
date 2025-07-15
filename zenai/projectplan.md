@@ -41,7 +41,7 @@ Each task must meet the following before being marked complete:
 - [ ] Feature/code validated
 - [ ] Git status clean
 - [ ] Commit created (`type(scope): description`)
-- [ ] `validation_checklist.md` run
+- [ ] [validation_checklist.md](zenai/validation_checklist.md) run
 - [ ] Feedback loop completed (if applicable)
 
 ---
@@ -57,9 +57,9 @@ Each task must meet the following before being marked complete:
 
 ## 🔗 Related Files
 
-- `zenai/milestone_0_sprint_planning.md`
-- `zenai/validation_checklist.md`
-- `zenai/.cursorrules`
+- [milestone_0_sprint_planning.md](zenai/milestone_0_sprint_planning.md)
+- [validation_checklist.md](zenai/validation_checklist.md)
+- [.cursorrules](zenai/.cursorrules)
 
 ---
 
