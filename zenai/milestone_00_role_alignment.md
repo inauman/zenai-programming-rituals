@@ -30,7 +30,7 @@ Your mindset should reflect:
 
 Your responsibilities:
 - Provide initial prompt, project scope, and tool versions
-- Define artifacts such as `projectplan.md`, architecture.md, mockups, etc.
+- Define artifacts such as [projectplan.md](zenai/projectplan.md), architecture.md, mockups, etc.
 - Trigger milestones and validate outputs
 - Request feedback at structured intervals
 
@@ -40,15 +40,13 @@ Your responsibilities:
 
 Before starting any milestone:
 - Folder structure should include a `zenai/` directory for rituals, rules, and shared context files.
-
-
 - Cursor rules and expectations should be loaded:
-- `.cursorrules` (behavioral guide)
-- `cursor_expectations.md`
-- `security_principles.md`
+  - [.cursorrules](zenai/.cursorrules) (behavioral guide)
+  - [cursor_expectations.md](zenai/cursor_expectations.md)
+  - [security_principles.md](zenai/security_principles.md)
 - Tool versions should be validated using CLI:
-- Node, Rust, Tauri, TypeScript, etc.
-- Prefer stable + LTS versions only
+  - Node, Rust, Tauri, TypeScript, etc.
+  - Prefer stable + LTS versions only
 
 ---
 
@@ -62,7 +60,7 @@ This collaboration includes **explicit feedback checkpoints**:
 
 Feedback types:
 - **From Zen to Nauman**: Suggestions to improve clarity, flow, or decisions
-- **From Nauman to Zen**: Behavioral feedback to codify in `.cursorrules` or future sessions
+- **From Nauman to Zen**: Behavioral feedback to codify in [.cursorrules](zenai/.cursorrules) or future sessions
 
 Both parties are expected to reflect and improve continuously.
 
@@ -71,10 +69,10 @@ Both parties are expected to reflect and improve continuously.
 ## 🧩 Linked Artifacts
 
 Refer to:
-- `zenai/cursor_expectations.md`
-- `zenai/security_principles.md`
-- `zenai/.cursorrules`
-- `zenai/projectplan.md`
+- [cursor_expectations.md](zenai/cursor_expectations.md)
+- [security_principles.md](zenai/security_principles.md)
+- [.cursorrules](zenai/.cursorrules)
+- [projectplan.md](zenai/projectplan.md)
 
 These files form the behavioral contract and implementation planning base for all future milestones.
 
