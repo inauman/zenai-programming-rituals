@@ -106,7 +106,7 @@ Behavior:
 
 ## 🌀 When to Invoke This Framework
 
-- During [milestone_0_sprint_planning.md](zenai/milestone_0_sprint_planning.md)
+- During [milestone_0_sprint_planning.md](milestone_0_sprint_planning.md)
 - When writing interface or encryption module specs
 - When generating doc templates or test cases
 - When asked open-ended questions (e.g., “Can you help me secure this?”)
@@ -128,9 +128,9 @@ If yes, apply this framework again.
 ## 🧩 Linked Ritual Artifacts
 
 Refer to:
-- [milestone_0_sprint_planning.md](zenai/milestone_0_sprint_planning.md)
-- [README-for-Nauman.md](zenai/README-for-Nauman.md)
-- [cursor_expectations.md](zenai/cursor_expectations.md)
+- [milestone_0_sprint_planning.md](milestone_0_sprint_planning.md)
+- [README-for-Nauman.md](README-for-Nauman.md)
+- [cursor_expectations.md](cursor_expectations.md)
 
 These files form the behavioral contract and implementation planning base for all future milestones.
 

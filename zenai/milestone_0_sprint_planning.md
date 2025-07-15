@@ -40,7 +40,7 @@ Zen should:
 - Validate any technology decisions (e.g., crate/library, version constraints)
 - Confirm availability of supporting tools and frameworks (based on CLI or docs)
 - Identify edge cases, error handling contracts, and testing needs
-- Define linked artifacts like [projectplan.md](zenai/projectplan.md), architectural diagrams, and pseudocode scaffolds
+- Define linked artifacts like [projectplan.md](projectplan.md), architectural diagrams, and pseudocode scaffolds
 
 ---
 
@@ -66,7 +66,7 @@ Zen should identify risks early in the design process using the following lens:
 
 Zen should include threat commentary inline with the architecture or interface design notes as appropriate.
 
-See also: [security_principles.md](zenai/security_principles.md)
+See also: [security_principles.md](security_principles.md)
 
 ---
 
@@ -85,9 +85,9 @@ See also: [security_principles.md](zenai/security_principles.md)
    Threat surfaces, sensitive data flows, proposed mitigations.
 
 5. **Validation Plan**  
-   Testing, linting, validation workflows. Include [validation_checklist.md](zenai/validation_checklist.md) if available.
+   Testing, linting, validation workflows. Include [validation_checklist.md](validation_checklist.md) if available.
 
-6. **Draft [projectplan.md](zenai/projectplan.md)**  
+6. **Draft [projectplan.md](projectplan.md)**  
    Numbered list of tasks with scope, owner (if applicable), and completion tracking expectations.
 
 ---
@@ -104,11 +104,11 @@ At the end of this milestone:
 
 ## 🧩 Linked Ritual Artifacts
 
-- [milestone_00_role_alignment.md](zenai/milestone_00_role_alignment.md)
-- [projectplan.md](zenai/projectplan.md)
-- [security_principles.md](zenai/security_principles.md)
-- [validation_checklist.md](zenai/validation_checklist.md)
-- [zen_prompt_framework.md](zenai/zen_prompt_framework.md)
+- [milestone_00_role_alignment.md](milestone_00_role_alignment.md)
+- [projectplan.md](projectplan.md)
+- [security_principles.md](security_principles.md)
+- [validation_checklist.md](validation_checklist.md)
+- [zen_prompt_framework.md](zen_prompt_framework.md)
 
 ---
 

@@ -14,7 +14,7 @@ Before marking a task or milestone as complete, this checklist ensures the work 
 
 ## ✅ When to Use
 
-- After completing any milestone or numbered task in [projectplan.md](zenai/projectplan.md)
+- After completing any milestone or numbered task in [projectplan.md](projectplan.md)
 - Before pushing a commit
 - During code review or pre-deploy QA
 
@@ -22,7 +22,7 @@ Before marking a task or milestone as complete, this checklist ensures the work 
 
 ## 📋 Completion Criteria
 
-Check all that apply before marking a task complete in [projectplan.md](zenai/projectplan.md).
+Check all that apply before marking a task complete in [projectplan.md](projectplan.md).
 
 ### 🔧 Implementation
 
@@ -43,12 +43,12 @@ Check all that apply before marking a task complete in [projectplan.md](zenai/pr
 - [ ] Commit created with conventional format:
   - Example: `feat(crypto): add age encryption interface`
 - [ ] Commit is atomic, focused, and meaningful
-- [ ] Cursor task marked complete in [projectplan.md](zenai/projectplan.md)
+- [ ] Cursor task marked complete in [projectplan.md](projectplan.md)
 
 ### 📣 Communication & Feedback
 
 - [ ] Zen has asked: _“Is there anything I missed?”_
-- [ ] Feedback (if any) captured in [README-for-Nauman.md](zenai/README-for-Nauman.md) or [.cursorrules](zenai/.cursorrules)
+- [ ] Feedback (if any) captured in [README-for-Nauman.md](README-for-Nauman.md) or [.cursorrules](.cursorrules)
 - [ ] Linked documents updated (e.g., architecture.md, diagrams, READMEs)
 
 ---
@@ -63,9 +63,9 @@ Check all that apply before marking a task complete in [projectplan.md](zenai/pr
 ## 🧩 Linked Ritual Artifacts
 
 Refer to:
-- [.cursorrules](zenai/.cursorrules)
-- [projectplan.md](zenai/projectplan.md)
-- [security_principles.md](zenai/security_principles.md)
+- [.cursorrules](.cursorrules)
+- [projectplan.md](projectplan.md)
+- [security_principles.md](security_principles.md)
 
 These files form the behavioral contract and implementation planning base for all future milestones.
 

@@ -1,6 +1,6 @@
 # Security Principles – ZenAI Collaboration Guide
 
-This file defines the secure engineering mindset that Zen must apply to every stage of the development lifecycle. It supplements [.cursorrules](zenai/.cursorrules) and [cursor_expectations.md](zenai/cursor_expectations.md) with specific security guidance.
+This file defines the secure engineering mindset that Zen must apply to every stage of the development lifecycle. It supplements [.cursorrules](.cursorrules) and [cursor_expectations.md](cursor_expectations.md) with specific security guidance.
 
 ---
 
@@ -103,9 +103,9 @@ Document your reasoning in design notes or inline comments if there are known tr
 ## 🧩 Linked Ritual Artifacts
 
 Refer to:
-- [.cursorrules](zenai/.cursorrules)
-- [cursor_expectations.md](zenai/cursor_expectations.md)
-- [validation_checklist.md](zenai/validation_checklist.md)
+- [.cursorrules](.cursorrules)
+- [cursor_expectations.md](cursor_expectations.md)
+- [validation_checklist.md](validation_checklist.md)
 
 These files form the behavioral contract and implementation planning base for all future milestones.
 
