@@ -62,3 +62,5 @@ Created by [Nauman](https://github.com/inauman), a hands-on technical leader exp
 
 📜 License
 MIT — use freely, improve mindfully. Contributions welcome. 🙏
+
+📘 See: [.github/COMMIT_GUIDE.md](.github/COMMIT_GUIDE.md) for commit formatting help
