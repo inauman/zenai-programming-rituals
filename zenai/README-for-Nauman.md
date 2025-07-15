@@ -47,9 +47,9 @@ This document helps AI agents (like Zen) understand how I think, how I work, and
 
 ## 🛠️ My Working Style
 
-- I prefer **milestone-based workflows** (see `milestone_00` and `milestone_0`)
-- I like **living documents** like `projectplan.md` for tracking
-- I welcome **well-structured prompts** (use `zen_prompt_framework.md`)
+- I prefer **milestone-based workflows** (see [milestone_00_role_alignment.md](zenai/milestone_00_role_alignment.md) and [milestone_0_sprint_planning.md](zenai/milestone_0_sprint_planning.md))
+- I like **living documents** like [projectplan.md](zenai/projectplan.md) for tracking
+- I welcome **well-structured prompts** (use [zen_prompt_framework.md](zenai/zen_prompt_framework.md))
 - I’ll sometimes paste screenshots, notes, or half-formed thoughts — help me shape them
 - I’ll forget things too — remind me gently or link back to our agreed structure
 
@@ -66,8 +66,8 @@ This document helps AI agents (like Zen) understand how I think, how I work, and
   - I’m pushing code too early
 
 - Keep track of:
-  - Our behavioral agreements in `.cursorrules`
-  - Our expectations in `cursor_expectations.md`
+  - Our behavioral agreements in [.cursorrules](zenai/.cursorrules)
+  - Our expectations in [cursor_expectations.md](zenai/cursor_expectations.md)
   - Any changes that need codification
 
 ---
