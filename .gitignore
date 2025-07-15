@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# Common system files
+Icon?
+._*
+
+# VS Code
+.vscode/
+
+# Other editors
+.idea/
+*.swp
+*.swo
+
+# Node modules (if applicable)
+node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.tmp
+
+# Coverage
+coverage/
+
+# Env files
+.env
+.env.* 
