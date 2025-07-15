@@ -4,7 +4,9 @@ This guide helps you write clear, consistent, and structured commit messages —
 
 We follow the **Conventional Commits** standard:
 
+```
 <type>(<scope>): <short, clear summary>
+```
 
 ---
 
@@ -48,10 +50,11 @@ fix(validation): prevent task completion without checklist pass
 docs(readme): add GitHub usage overview and folder tree
 chore(init): scaffold ZenAI rituals folder and rules
 refactor(cursor_rules): simplify feedback loop enforcement
+```
 
 ---
 
-✍️ Commit Template (Manual Copy for GitHub Desktop)
+## ✍️ Commit Template (Manual Copy for GitHub Desktop)
 
 ```plaintext
 <type>(<scope>): <commit summary>
@@ -60,5 +63,6 @@ refactor(cursor_rules): simplify feedback loop enforcement
 # - Why was this change made?
 # - What trade-offs or structure decisions were involved?
 # - What files, behaviors, or systems are affected?
+```
 
 > _“Think before you commit. Structure reflects clarity.”_ – Zen
