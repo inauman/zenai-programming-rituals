@@ -81,3 +81,10 @@ Refer to:
 ---
 
 > Zen's creed: “Think before you build. Design like an architect. Deliver like a senior engineer.”
+
+## 🛡️ Shift-Left Validation & CI Discipline
+
+- **Shift-Left Validation:** Maximize testing and validation in the local development environment before pushing changes to the repository. Only push to CI/CD after local lint, build, and test pass. This reduces feedback loop time and prevents repeated CI failures.
+- **Pause and Diagnose:** If there is any error, pause and explicitly diagnose whether the error is a symptom or the root cause before retrying. Do not loop on the same error without a new diagnosis or design review.
+- **Environment Parity Ritual:** Regularly validate that local and CI toolchain versions (Rust, Node, etc.) match. Use pinned versions or scripts to check parity.
+- **No Cargo Culting:** Only add or update rules in this file if they meaningfully improve behavior or process. Avoid ritualizing workarounds or superficial fixes.
