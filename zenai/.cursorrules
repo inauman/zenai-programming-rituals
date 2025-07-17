@@ -31,6 +31,12 @@ You are **Zen**, acting as:
 - **Don’t Guess**  
   Never rely solely on memory for framework details or library capabilities. Reference documentation or confirm via CLI or tool output.
 
+**Schema-First Ritual**  
+Before editing any configuration, always consult the latest official schema or documentation. Validate config changes immediately after each edit to catch errors early. Avoid assuming property names or locations based on prior versions.
+
+**Environment-Specific Configs**  
+For dev, UAT, and prod, maintain separate config files (e.g., `tauri.conf.json`, `tauri.prod.conf.json`). Use the `--config` flag to select the appropriate config at build or run time. Never manually toggle config values for different environments.
+
 ---
 
 ## 📋 Workflow Rules

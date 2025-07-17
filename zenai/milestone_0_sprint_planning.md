@@ -90,6 +90,15 @@ See also: [security_principles.md](security_principles.md)
 6. **Draft [projectplan.md](projectplan.md)**  
    Numbered list of tasks with scope, owner (if applicable), and completion tracking expectations.
 
+## 🛡️ Environment-Specific Configs
+For dev, UAT, and prod, maintain separate config files (e.g., `tauri.conf.json`, `tauri.prod.conf.json`). Use the `--config` flag to select the appropriate config at build or run time. Never manually toggle config values for different environments.
+
+## 🧠 Schema-First Ritual
+Before editing any configuration, always consult the latest official schema or documentation. Validate config changes immediately after each edit to catch errors early. Avoid assuming property names or locations based on prior versions.
+
+## 🔄 Retrospective Ritual
+At the end of each major task or milestone, pause for a brief retrospective: What went well? What could be improved? What will we do differently next time?
+
 ---
 
 ## 🔄 Feedback Expectations

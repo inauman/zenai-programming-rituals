@@ -36,6 +36,9 @@ Check all that apply before marking a task complete in [projectplan.md](projectp
 - [ ] Code or artifact aligns with the agreed design/contract
 - [ ] Implementation choices are explained in comments or commit message
 - [ ] Threat mitigation notes are documented (if applicable)
+- [ ] Validate security posture in both dev and production builds (some features like CSP may only be enforced in production).
+- [ ] Consult the latest official schema or documentation before editing any configuration (schema-first ritual).
+- [ ] Confirm that all build paths (e.g., `frontendDist`) are correct for both dev and production environments.
 
 ### 🗂️ Hygiene & Commit
 
@@ -44,6 +47,7 @@ Check all that apply before marking a task complete in [projectplan.md](projectp
   - Example: `feat(crypto): add age encryption interface`
 - [ ] Commit is atomic, focused, and meaningful
 - [ ] Cursor task marked complete in [projectplan.md](projectplan.md)
+- [ ] Complete a brief retrospective: What went well? What could be improved? What will we do differently next time?
 
 ### 📣 Communication & Feedback
 
