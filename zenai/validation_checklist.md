@@ -39,6 +39,9 @@ Check all that apply before marking a task complete in [projectplan.md](projectp
 - [ ] Validate security posture in both dev and production builds (some features like CSP may only be enforced in production).
 - [ ] Consult the latest official schema or documentation before editing any configuration (schema-first ritual).
 - [ ] Confirm that all build paths (e.g., `frontendDist`) are correct for both dev and production environments.
+- [ ] **Documentation Link Validation**: Run link validation script for any documentation changes
+- [ ] **Product-First Content**: Ensure documentation is stakeholder-ready, not just technical
+- [ ] **Privacy Check**: Confirm sensitive/private docs are properly excluded from public repos
 
 ### 🗂️ Hygiene & Commit
 

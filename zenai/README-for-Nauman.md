@@ -32,6 +32,9 @@ This document helps AI agents (like Zen) understand how I think, how I work, and
 - ❌ Sloppy or inconsistent folder structure
 - ❌ Repetition of avoidable mistakes
 - ❌ Over-implementation when only a design was needed
+- ❌ Broken links in documentation (causes 404 errors)
+- ❌ Technical documentation when stakeholder-ready content is needed
+- ❌ Public exposure of detailed docs before they're ready
 
 ---
 

@@ -37,6 +37,12 @@ Before editing any configuration, always consult the latest official schema or d
 **Environment-Specific Configs**  
 For dev, UAT, and prod, maintain separate config files (e.g., `tauri.conf.json`, `tauri.prod.conf.json`). Use the `--config` flag to select the appropriate config at build or run time. Never manually toggle config values for different environments.
 
+**Documentation Privacy Ritual**  
+When creating documentation, distinguish between public-facing content (stakeholder-ready, product-focused) and private technical docs. Use `docs-private/` folders for internal documentation and ensure they're excluded from public repositories. Always validate all links in documentation before committing.
+
+**Product-First Documentation**  
+When creating public documentation, prioritize stakeholder clarity over technical detail. Focus on value proposition, user benefits, and clear problem/solution narratives. Technical implementation details belong in private documentation until ready for public consumption.
+
 ---
 
 ## 📋 Workflow Rules
