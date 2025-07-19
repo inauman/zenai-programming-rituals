@@ -8,14 +8,14 @@ Transform your AI assistant from a frustrating bot to a reliable programming par
 
 ## The Problem: AI Collaboration Chaos
 
-I'm a lazy programmer and a lazy manager. When ChatGPT arrived in 2024, I jumped into "vibe coding" to see how AI could make me better at both roles. I gave my AI assistant a name - **Zen** - because I don't like to call my partner a "bot." 😊 
+By nature, I'm a lazy programmer and a lazy manager — which means I'm always hunting for ways to optimize and avoid doing the same thing twice. When ChatGPT arrived in 2024, I jumped into "vibe coding" to see how AI could make me better at both roles. I gave my AI assistant a name — Zen — because I don’t like calling my partner a ‘bot.’ 😊
 
 But here's what happened:
 
-- **Zen kept drifting away** - I'd explain something, then 5 minutes later he'd forget
-- **Hallucinations everywhere** - Confident but wrong answers that wasted hours
-- **No feedback loops** - I was giving one-way feedback, which felt wrong
-- **Endless repetition** - "Remember what I said about X?" became my daily mantra
+- **Zen kept drifting away:** I'd explain something, then 5 minutes later he'd forget
+- **Hallucinations everywhere:** Confident but wrong answers that wasted hours
+- **No feedback loops:** I was giving one-way feedback, which felt wrong
+- **Endless repetition:** Remember what I said about X?" became my daily mantra
 
 Sound familiar? You're not alone.
 

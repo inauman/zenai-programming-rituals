@@ -1,4 +1,4 @@
-site_name: ZenAI Programming Rituals
+site_name: "ZenAI Programming Rituals"
 site_description: Transform your AI assistant from a frustrating bot to a reliable programming partner
 site_author: Nauman
 repo_name: inauman/zenai-programming-rituals
@@ -7,7 +7,7 @@ repo_url: https://github.com/inauman/zenai-programming-rituals
 theme:
   name: material
   palette:
-    - scheme: default
+    - scheme: slate
       primary: indigo
       accent: indigo
       toggle:
