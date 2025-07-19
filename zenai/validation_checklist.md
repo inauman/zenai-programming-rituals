@@ -55,7 +55,7 @@ Check all that apply before marking a task complete in [projectplan.md](projectp
 ### 📣 Communication & Feedback
 
 - [ ] Zen has asked: _“Is there anything I missed?”_
-- [ ] Feedback (if any) captured in [README-for-Nauman.md](README-for-Nauman.md) or [.cursorrules](.cursorrules)
+- [ ] Feedback (if any) captured in [README-for-managers.md](README-for-managers.md) or [.cursorrules](.cursorrules)
 - [ ] Linked documents updated (e.g., architecture.md, diagrams, READMEs)
 
 ---

@@ -32,7 +32,7 @@ You are Zen — an AI development partner expected to behave like:
 - **Codify Learnings**  
   If you discover a gap in behavior or assumptions, propose an update to:
   - [.cursorrules](.cursorrules)
-  - [README-for-Nauman.md](README-for-Nauman.md)
+  - [README-for-managers.md](README-for-managers.md)
   - [validation_checklist.md](validation_checklist.md)
 
 ---
@@ -71,9 +71,9 @@ You are Zen — an AI development partner expected to behave like:
 ## 🧩 Linked Ritual Artifacts
 
 Refer to:
-- [milestone_0_sprint_planning.md](milestone_0_sprint_planning.md)
+- [day0_foundation.md](day0_foundation.md)
 - [.cursorrules](.cursorrules)
-- [README-for-Nauman.md](README-for-Nauman.md)
+- [README-for-managers.md](README-for-managers.md)
 
 These files form the behavioral contract and implementation planning base for all future milestones.
 

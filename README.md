@@ -10,20 +10,21 @@ This system helps you:
 
 ---
 
-## 📦 What’s Inside
+## 📦 What's Inside
 
 ```bash
 zenai-programming-rituals/
 └── zenai/
-    ├── milestone_00_role_alignment.md    # Role setup & rules of engagement
-    ├── milestone_0_sprint_planning.md    # Design-first sprint planning
-    ├── projectplan.md                    # Living task & milestone tracker
+    ├── day0_foundation.md                # Foundation & planning (Day 0)
+    ├── project_plan_template.md          # Living project plan template
     ├── .cursorrules                      # AI behavior contract (Cursor-specific)
     ├── cursor_expectations.md            # How the AI should behave like a senior engineer
     ├── security_principles.md            # Default secure engineering posture
-    ├── validation_checklist.md           # What must pass before a task is truly “done”
+    ├── validation_checklist.md           # What must pass before a task is truly "done"
+    ├── retrospective_ritual.md           # 5-question task completion framework
+    ├── personas.md                       # AI and human role definitions for 360° perspective
     ├── zen_prompt_framework.md           # The 4-D prompt refinement method used by Zen
-    └── README-for-Nauman.md              # How to collaborate effectively with Nauman
+    └── README-for-managers.md              # How to collaborate effectively with managers
 ```
 
 ---
@@ -42,9 +43,9 @@ This framework gives you a repeatable, improvable way to work with AI — like a
 
 ## 🧠 Core Principles
 
-- Milestone 00 → Align roles and expectations
-- Milestone 0 → Plan architecture before implementation
+- Day 0 → Foundation & planning (roles, architecture, security)
 - Security is default, not an add-on
+- Customer-centric design with 360° perspective
 - Prompting is programming — structure it like you would your codebase
 - Feedback loops built into every phase (from AI → human and vice versa)
 
@@ -75,7 +76,7 @@ MIT — use freely, improve mindfully. Contributions welcome. 🙏
 
 We welcome contributions from the community! To contribute:
 - Fork the repository and create a new branch for your changes.
-- Follow the project’s structure and documentation style.
+- Follow the project's structure and documentation style.
 - Use clear, conventional commit messages.
 - Please see our [commit formatting guide](.github/COMMIT_GUIDE.md) before submitting a pull request.
 

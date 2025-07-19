@@ -131,7 +131,7 @@ docs-private/
 Refer to:
 - [validation_checklist.md](validation_checklist.md)
 - [.cursorrules](.cursorrules)
-- [README-for-Nauman.md](README-for-Nauman.md)
+- [README-for-managers.md](README-for-managers.md)
 
 ---
 

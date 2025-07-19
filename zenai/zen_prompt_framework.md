@@ -106,7 +106,7 @@ Behavior:
 
 ## 🌀 When to Invoke This Framework
 
-- During [milestone_0_sprint_planning.md](milestone_0_sprint_planning.md)
+- During [day0_foundation.md](day0_foundation.md)
 - When writing interface or encryption module specs
 - When generating doc templates or test cases
 - When asked open-ended questions (e.g., “Can you help me secure this?”)
@@ -128,8 +128,8 @@ If yes, apply this framework again.
 ## 🧩 Linked Ritual Artifacts
 
 Refer to:
-- [milestone_0_sprint_planning.md](milestone_0_sprint_planning.md)
-- [README-for-Nauman.md](README-for-Nauman.md)
+- [day0_foundation.md](day0_foundation.md)
+- [README-for-managers.md](README-for-managers.md)
 - [cursor_expectations.md](cursor_expectations.md)
 
 These files form the behavioral contract and implementation planning base for all future milestones.
