@@ -20,7 +20,6 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
@@ -29,6 +28,8 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  logo: false
+  favicon: false
 
 markdown_extensions:
   - admonition
