@@ -85,17 +85,20 @@ tests/
 - **Test Data**: @testing-library/user-event for user interactions
 - **E2E Tests**: Playwright (industry standard)
 
-### Python Backend
-- **Unit Tests**: pytest
-- **Integration Tests**: pytest with fixtures
-- **Mocking**: unittest.mock or pytest-mock
-- **Test Data**: pytest-factoryboy for test data factories
+### Enhanced Assertions Pattern
+- **Custom Assertion Helpers**: Create domain-specific assertion utilities
+- **Context-Rich Error Messages**: Include test context in failure messages
+- **Performance Integration**: Combine assertions with performance measurement
+- **Consistent Patterns**: Standardize assertion patterns across test suites
 
-### Java Backend
-- **Unit Tests**: JUnit 5
-- **Integration Tests**: Spring Boot Test
-- **Mocking**: Mockito
-- **Test Data**: TestContainers for external dependencies
+Example:
+```rust
+// Instead of: assert!(result.is_ok())
+let archive_operation = TestAssertions::assert_ok(
+    create_archive(&selection, &archive_path, &config),
+    "Archive creation should succeed for large files",
+);
+```
 
 ## 🎭 Test Quality Standards
 
