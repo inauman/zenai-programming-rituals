@@ -54,6 +54,9 @@ Consider every perspective - from Architect to Customer - with Customer as your 
 ### ✅ **Validation Gates**
 Quality checklists that prevent premature task completion.
 
+### 🧪 **Test Strategy**
+Universal 2-phase test pyramid with automation-first principles.
+
 ### 🛡️ **Security-First Mindset**
 Built-in security principles for every development decision.
 
