@@ -1,6 +1,6 @@
-# Documentation Rituals – ZenAI Documentation Standards
+# Project Documentation Ritual – ZenAI Documentation Standards
 
-This file codifies the documentation practices and rituals learned through collaborative development, ensuring consistent, stakeholder-ready documentation across all projects.
+This ritual codifies the documentation practices learned through collaborative development, ensuring consistent, stakeholder-ready documentation across all projects.
 
 ---
 
@@ -132,6 +132,7 @@ Refer to:
 - [validation_checklist.md](validation_checklist.md)
 - [.cursorrules](.cursorrules)
 - [README-for-managers.md](README-for-managers.md)
+- [project_plan_template.md](project_plan_template.md)
 
 ---
 
