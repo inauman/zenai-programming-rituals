@@ -1,8 +1,62 @@
-# 🧪 ZenAI Test Strategy
+# 🧪 Test Strategy Ritual
 
 ## Overview
 
-This document defines the universal test strategy for all ZenAI projects, emphasizing **automation-first**, **test-cases-as-documentation**, and **shift-left testing** principles. The strategy is designed to work across all application types (desktop, web, mobile) and technology stacks.
+This ritual defines the universal test strategy for all ZenAI projects, emphasizing **automation-first**, **test-cases-as-documentation**, and **shift-left testing** principles. The strategy is designed to work across all application types (desktop, web, mobile) and technology stacks.
+
+## 🎯 Purpose
+
+- **Ensure Quality**: Establish comprehensive testing to prevent defects and ensure reliability
+- **Accelerate Development**: Provide fast feedback loops for rapid iteration
+- **Reduce Risk**: Catch issues early through shift-left testing principles
+- **Document Requirements**: Use tests as living documentation of system behavior
+- **Enable Confidence**: Support safe deployments with comprehensive test coverage
+
+## 👥 Test Strategy Stakeholder Map
+
+### **Primary Stakeholders (Direct Implementation)**
+
+#### **Test Automation Engineer** 🎯 (Driver)
+**Needs**: Test framework selection, automation tools, quality metrics
+**Impact Level**: High
+**Communication**: Test strategy, framework guidelines, quality standards
+
+#### **Senior Engineer** ✅ (Approver)
+**Needs**: Test quality validation, performance requirements, maintainability
+**Impact Level**: High
+**Communication**: Quality metrics, performance benchmarks, maintenance guidelines
+
+#### **Architect** 🔧 (Contributor)
+**Needs**: Testable architecture, integration points, system boundaries
+**Impact Level**: High
+**Communication**: Architecture guidelines, integration requirements, system design
+
+#### **Customer Persona** ⭐ (North Star)
+**Needs**: User workflow validation, experience quality, reliability assurance
+**Impact Level**: High
+**Communication**: User scenarios, quality expectations, reliability requirements
+
+### **Secondary Stakeholders (Affected Teams)**
+
+#### **Manager** 📊 (Informed)
+**Needs**: Resource allocation, timeline management, ROI validation
+**Impact Level**: Medium
+**Communication**: Resource requirements, timeline estimates, quality metrics
+
+#### **Dev Engineers** 👨‍💻
+**Needs**: Testing guidelines, framework usage, quality practices
+**Impact Level**: Medium
+**Communication**: Testing standards, best practices, quality guidelines
+
+#### **Product Owners** 📋
+**Needs**: Feature validation, quality assurance, delivery confidence
+**Impact Level**: Medium
+**Communication**: Quality metrics, validation results, delivery readiness
+
+#### **Security Engineers** 🔒
+**Needs**: Security testing, vulnerability detection, compliance validation
+**Impact Level**: Medium
+**Communication**: Security test requirements, compliance standards, vulnerability reports
 
 ## 🏗️ Two-Phase Test Pyramid
 
@@ -20,6 +74,38 @@ This document defines the universal test strategy for all ZenAI projects, emphas
       🔺🔺🔺 Integration Tests (Module interactions)  
    🔺🔺🔺 Unit Tests (Function/component level)
 ```
+
+## 🚫 Testing Anti-Patterns to Avoid
+
+### **1. Test After Thought** 🧪
+**Description**: Writing tests after implementation instead of during development
+**Manifestations**:
+- "We'll add tests later" mentality
+- Tests written in a rush before release
+- Poor test coverage due to time constraints
+- Tests that don't reflect actual requirements
+
+**Prevention**: Follow shift-left testing principles, write tests alongside code
+
+### **2. Flaky Test Syndrome** 🎲
+**Description**: Tests that pass sometimes and fail other times
+**Manifestations**:
+- Tests dependent on timing or external state
+- Shared test data between tests
+- External dependencies not properly mocked
+- Non-deterministic test behavior
+
+**Prevention**: Isolated test data, proper mocking, deterministic test design
+
+### **3. Test Pyramid Inversion** 🔺
+**Description**: Too many E2E tests, too few unit tests
+**Manifestations**:
+- Slow test suites that take hours to run
+- Expensive test maintenance
+- Difficult debugging when tests fail
+- Over-reliance on integration tests
+
+**Prevention**: Follow test pyramid structure, prioritize unit tests
 
 ## 🎯 Core Principles
 
