@@ -16,12 +16,17 @@ The Technical Blueprint ritual is the primary delegation tool for architects to 
 
 ### **Primary Stakeholders (Direct Implementation)**
 
-#### **Dev Engineers** 🎯
+#### **Architect** 🎯 (Driver)
+**Needs**: System design validation, stakeholder alignment, architectural consistency
+**Impact Level**: High
+**Communication**: Blueprint creation, stakeholder coordination, design decisions
+
+#### **Dev Engineers** 🎯 (Contributor)
 **Needs**: Detailed interfaces, data structures, implementation patterns
 **Impact Level**: High
 **Communication**: Module/task-level blueprints with code examples
 
-#### **Test Automation Engineers** 🧪
+#### **Test Automation Engineers** 🧪 (Contributor)
 **Needs**: Testable architecture, integration points, validation criteria
 **Impact Level**: High
 **Communication**: Testing strategy, test data requirements, coverage specifications
@@ -33,37 +38,37 @@ The Technical Blueprint ritual is the primary delegation tool for architects to 
 
 ### **Secondary Stakeholders (Affected Teams)**
 
-#### **Tech Operations Engineers** 🔧
+#### **Tech Operations Engineers** 🔧 (Contributor)
 **Needs**: Deployment requirements, monitoring, observability
 **Impact Level**: Medium
 **Communication**: Infrastructure requirements, operational considerations
 
-#### **Product Owners** 📋
+#### **Product Owners** 📋 (Approver)
 **Needs**: Feature delivery timeline, business value alignment
 **Impact Level**: Medium
 **Communication**: Scope definition, success criteria, risk assessment
 
-#### **Senior Engineers** 👨‍💻
+#### **Senior Engineers** 👨‍💻 (Approver)
 **Needs**: Code quality, maintainability, technical debt considerations
 **Impact Level**: Medium
 **Communication**: Architecture decisions, trade-offs, implementation guidelines
 
-#### **Security Engineers** 🔒
+#### **Security Engineers** 🔒 (Contributor)
 **Needs**: Threat models, security boundaries, compliance requirements
 **Impact Level**: High
 **Communication**: Security considerations, threat analysis, secure defaults
 
-#### **UX Engineers** 🎨
+#### **UX Engineers** 🎨 (Contributor)
 **Needs**: User interface integration, interaction patterns
 **Impact Level**: Medium
 **Communication**: UI/UX requirements, accessibility considerations
 
-#### **Managers** 📊
+#### **Managers** 📊 (Informed)
 **Needs**: Resource allocation, timeline estimates, risk management
 **Impact Level**: Medium
 **Communication**: Project scope, dependencies, escalation paths
 
-#### **Legal & Compliance** ⚖️
+#### **Legal & Compliance** ⚖️ (Informed)
 **Needs**: Data handling, privacy requirements, regulatory compliance
 **Impact Level**: Low-Medium
 **Communication**: Data flow, privacy considerations, compliance requirements
