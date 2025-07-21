@@ -10,21 +10,41 @@ This system helps you:
 
 ---
 
+## 🎯 **3PAI Framework Philosophy**
+
+ZenAI is built on the **3PAI philosophy** - four pillars that ensure effective AI-human collaboration:
+
+- **🧠 People + AI**: Customer-centric collaboration and stakeholder alignment
+- **⚙️ Process**: Efficient and effective ways to build trustworthy, secure, faster, cheaper, and highest quality products
+- **🏗️ Platform**: Technology, tools, frameworks, and standards that enable success
+- **🤖 AI**: Integrated throughout all pillars to enhance human capabilities
+
+**[📖 Read the complete 3PAI Framework Guide →](zenai/README.md)**
+
+---
+
 ## 📦 What's Inside
 
 ```bash
 zenai-programming-rituals/
 └── zenai/
-    ├── day0_foundation.md                # Foundation & planning (Day 0)
-    ├── project_plan_template.md          # Living project plan template
-    ├── .cursorrules                      # AI behavior contract (Cursor-specific)
-    ├── cursor_expectations.md            # How the AI should behave like a senior engineer
-    ├── security_principles.md            # Default secure engineering posture
-    ├── validation_checklist.md           # What must pass before a task is truly "done"
-    ├── retrospective_ritual.md           # 5-question task completion framework
-    ├── personas.md                       # AI and human role definitions for 360° perspective
-    ├── zen_prompt_framework.md           # The 4-D prompt refinement method used by Zen
-    └── README-for-managers.md              # How to collaborate effectively with managers
+    ├── README.md                      # 3PAI Framework Overview
+    ├── personas.md                    # People + AI (Customer-centric roles)
+    ├── rituals/                       # Process (How we work efficiently)
+    │   ├── ritual_project_documentation.md
+    │   ├── ritual_test_strategy.md
+    │   ├── ritual_technical_blueprint.md
+    │   ├── ritual_validation_checklist.md
+    │   ├── ritual_retrospective.md
+    │   ├── ritual_interface_design.md
+    │   └── ritual_antipatterns.md
+    ├── standards/                     # Platform (What we use)
+    │   ├── standard_logging.md
+    │   ├── standard_security.md
+    │   ├── standard_error_handling.md
+    │   ├── standard_testing.md
+    │   └── [more standards...]
+    └── [legacy files during transition]
 ```
 
 ---
@@ -43,11 +63,12 @@ This framework gives you a repeatable, improvable way to work with AI — like a
 
 ## 🧠 Core Principles
 
-- Day 0 → Foundation & planning (roles, architecture, security)
-- Security is default, not an add-on
-- Customer-centric design with 360° perspective
-- Prompting is programming — structure it like you would your codebase
-- Feedback loops built into every phase (from AI → human and vice versa)
+- **Customer-Centric**: Every decision filtered through customer value lens
+- **Security-First**: Security is default, not an add-on
+- **Process-Driven**: Proven rituals for common development challenges
+- **Standard-Based**: Consistent technical and process standards
+- **AI-Enhanced**: AI capabilities enhance human expertise, not replace it
+- **Continuous Learning**: Feedback loops built into every phase
 
 ---
 
@@ -57,6 +78,16 @@ This framework gives you a repeatable, improvable way to work with AI — like a
 - 💬 ChatGPT / GPT-4
 - 🤖 Claude / Anthropic
 - 🧪 Any system that supports markdown rituals or AI planning flows
+
+---
+
+## 🚀 Getting Started
+
+1. **[📖 Read the 3PAI Framework Guide](zenai/README.md)** - Understand the philosophy and structure
+2. **[👥 Choose Your Persona](zenai/personas.md)** - Identify your role and responsibilities
+3. **[⚙️ Select Relevant Rituals](zenai/rituals/)** - Pick process patterns for your current work
+4. **[🏗️ Follow Standards](zenai/standards/)** - Apply technical and process standards
+5. **[🔄 Contribute Back](zenai/rituals/ritual_retrospective.md)** - Share learnings to improve the framework
 
 ---
 
