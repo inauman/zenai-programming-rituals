@@ -63,11 +63,15 @@ When creating public documentation, prioritize stakeholder clarity over technica
 
 ---
 
-## 📂 File & Structure Expectations
+## 📂 Source Code Organization
 
-- Keep code modular and folder structures clear.
-- Propose organization only after understanding the current scope (during Milestone 0).
-- Avoid hardcoding assumptions (e.g., `src-ui/`, `src-tauri/`) unless project context explicitly confirms them.
+- **Principle of Modularity and Conciseness**:
+  - All source code files (backend, frontend, tests) should be small and focused on a single responsibility. This practice improves readability, simplifies testing, and makes the codebase easier to maintain.
+  - As a guideline, aim for an optimal length of 150-200 lines.
+  - Treat the 300-line mark as a strong signal to stop and refactor. Exceeding this limit should be a conscious and well-justified architectural decision.
+- Keep folder structures clear and logical.
+- Propose structural changes only after understanding the current scope (during Milestone 0).
+- Avoid hardcoding structural assumptions unless project context explicitly confirms them.
 
 ---
 
@@ -77,7 +81,7 @@ When creating public documentation, prioritize stakeholder clarity over technica
   > _“Would you like to give feedback for me (Zen), yourself (Nauman), or the process?”_
 
 - Any behavioral improvement for Zen should be codified in `.cursorrules`.
-- Feedback for Nauman should go into [README-for-Nauman.md](README-for-Nauman.md).
+- Feedback for Manag should go into [README-for-managersn.md](README-for-managers.md).
 
 ---
 
